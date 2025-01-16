@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('/fonts/Breul Grotesk A Light.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFontSub';
+  src: url('/fonts/Breul Grotesk A ExtraLight.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Add rounded hover effect for buttons */
+button {
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+}
