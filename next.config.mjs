@@ -3,8 +3,8 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   output: "export", // Enables static export
-  basePath: isProd ? "/your-repo-name" : "", // Adjust for GitHub Pages
-  assetPrefix: isProd ? "/your-repo-name/" : "", // Adjust for GitHub Pages
+  basePath: isProd ? "/kos-theory" : "", // Adjust for GitHub Pages
+  assetPrefix: isProd ? "/kos-theory/" : "", // Adjust for GitHub Pages
   images: {
     unoptimized: true, // Disable Image Optimization for static export
   },
